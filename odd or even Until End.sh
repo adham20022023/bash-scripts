@@ -18,7 +18,7 @@ if [ $(( $counter % 2 )) -ne 0 ]
 then 
 echo  Odd:: $counter 
 else 
-echo Even:: $counter
+echo  Even:: $counter
 fi
 counter=`expr $counter + 1 `
 done
