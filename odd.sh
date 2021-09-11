@@ -11,12 +11,14 @@ echo "/_/   \_\/_/   \_\___|_____|"
 echo ----------------------------------
 echo Enter Last Number 
 read index
-counter=0
+counter=1
 while [ $counter -lt $index ]
 do 
 if [ $(( $counter % 2 )) -ne 0 ]
 then 
-echo $counter 
+echo  Odd:: $counter 
+else 
+echo Even:: $counter
 fi
 counter=`expr $counter + 1 `
 done
